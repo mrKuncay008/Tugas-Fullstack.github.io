@@ -1,0 +1,38 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+}
+
+.Judul {
+  width: 659px;
+  height: 117px;
+  top: 174px; left: 390px;
+  gap: 0px; border: 1px 0px 0px 0px;
+
+}
+
+h1 {
+  width: 100%; height: 75px;
+  position: absolute;
+  top: auto; left: 50%;
+  transform: translateX(-50%); text-align: center;
+  font-size: 2em; /* Ukuran font relatif */
+}
+
+.up-Border {
+  width: 100%; height: 50px;
+  background-color: #242424;
+  border: 1px ;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 1.5em; /* Menyesuaikan ukuran font untuk layar lebih kecil */
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+
+}

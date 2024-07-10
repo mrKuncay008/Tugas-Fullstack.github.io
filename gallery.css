@@ -1,0 +1,93 @@
+/* .gallery */
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+  }
+  
+  .gallery {
+    display: grid;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  .gallery img {width: 100%;}
+  
+  .content-1:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 4px 0px rgba(133, 133, 133, 0.25);
+    transition:  .4s ease-in-out;
+    -ms-transform: scale(1.1); /* Untuk IE 9 */
+    -webkit-transform: scale(1.1); /* Untuk Safari 3-8 */
+    transform: scale(1.2);
+  }
+  
+  .content-2:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 4px 0px rgba(133, 133, 133, 0.25);
+    transition: .4s ease-in-out;
+    -ms-transform: scale(1.1); /* Untuk IE 9 */
+    -webkit-transform: scale(1.1); /* Untuk Safari 3-8 */
+    transform: scale(1.2);
+  }
+  
+  .content-3:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 4px 0px rgba(133, 133, 133, 0.25);
+    transition: .4s ease-in-out;
+    -ms-transform: scale(1.1); /* Untuk IE 9 */
+    -webkit-transform: scale(1.1); /* Untuk Safari 3-8 */
+    transform: scale(1.2);
+  }
+  
+  .content-4:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 4px 0px rgba(133, 133, 133, 0.25);
+    transition: .4s ease-in-out;
+    -ms-transform: scale(1.1); /* Untuk IE 9 */
+    -webkit-transform: scale(1.1); /* Untuk Safari 3-8 */
+    transform: scale(1.2);
+  }
+  
+  .content-5:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 4px 0px rgba(133, 133, 133, 0.25);
+    transition: .4s ease-in-out;
+    -ms-transform: scale(1.1); /* Untuk IE 9 */
+    -webkit-transform: scale(1.1); /* Untuk Safari 3-8 */
+    transform: scale(1.2);
+  }
+  
+  .content-6:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 4px 0px rgba(133, 133, 133, 0.25);
+    transition: .4s ease-in-out;
+    -ms-transform: scale(1.1); /* Untuk IE 9 */
+    -webkit-transform: scale(1.1); /* Untuk Safari 3-8 */
+    transform: scale(1.2);
+  }
+  
+  .content-7:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 4px 0px rgba(133, 133, 133, 0.25);
+    transition: .4s ease-in-out;
+    -ms-transform: scale(1.1); /* Untuk IE 9 */
+    -webkit-transform: scale(1.1); /* Untuk Safari 3-8 */
+    transform: scale(1.2);
+  }
+  
+  .content-8:hover {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 4px 0px rgba(133, 133, 133, 0.25);
+    transition: .4s ease-in-out;
+    -ms-transform: scale(1.1); /* Untuk IE 9 */
+    -webkit-transform: scale(1.1); /* Untuk Safari 3-8 */
+    transform: scale(1.2);
+  }
